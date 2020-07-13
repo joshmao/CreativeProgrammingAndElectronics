@@ -1,4 +1,4 @@
-![](sunsetplanes.mp4)
+![](sunsetplanes.gif)
 
 I was inspired by a piece of artwork I found on OpenProcessing called !["Energy Sunset"](https://www.openprocessing.org/sketch/68774) by ramayac; I really loved the color palette and also the simplicity of the animated artwork. I decided to put my own twist on it by making animated planes fly across the sunset and I found inspiration from the plane in a drawing called ![fly](http://simpledesktops.com/browse/desktops/2012/sep/04/fly/) by Chauvin.
 
