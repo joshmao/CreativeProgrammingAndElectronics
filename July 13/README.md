@@ -1,1 +1,9 @@
-daggeag
+![](sunsetplanes.mp4)
+
+I was inspired by a piece of artwork I found on OpenProcessing called !["Energy Sunset"](https://www.openprocessing.org/sketch/68774) by ramayac; I really loved the color palette and also the simplicity of the animated artwork. I decided to put my own twist on it by making animated planes fly across the sunset and I found inspiration from the plane in a drawing called ![fly](http://simpledesktops.com/browse/desktops/2012/sep/04/fly/) by Chauvin.
+
+I utilized the draw() function to animate the planes flying across the screen and the translate() and rotate() functions to create the plane model. For the background, I used a circle and an arc to create the sunset landscape.
+
+Creating the plane itself was the first big issue I ran into as was still trying to figure out how to utilize the translate() and rotate() functions alongside the pushMatrix() and popMatrix() functions; it was confusing at first because the ellipse was on CORNER mode and the rotatons kept on messing up. I finally realized that I had to put it on CENTER mode in order for it to work and also sandwhiched multiple pushMatrix() and popMatrix() combinations in order to have the plane shapes stay in reference to one another. The second big issues I ran into was animating the planes; I tried many times with the translate() function and with a while/for loop but it was really hard to implement them within the draw(). I ended up just using the draw() function as a pseudo-while loop through an If-else statement and it seemed to work pretty well.
+
+Although this was an assignment where I struggled a lot, I learned about the happiness of finally having your program work correctly after so many failed attempts. I also would love to explore more generative iterations of this art piece whether it's more planes generating at random y-values or having them collide into one another. Overall, another great experience!
