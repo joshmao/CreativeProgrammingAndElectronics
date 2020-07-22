@@ -1,6 +1,6 @@
 ![](Circuit.jpg)
 
-![video](video.mov)
+[video](video.mov)
 
 For this project, I was trying to figure out a way to combine both the LED lit by the button and also the LED lit by the photoresistor in a creative and fun manner; I noticed that when I covered the photoresistor with my hand, it would decrease the analog data by a lot and vice versa when I lit the LED that was next to it with the button. I then had the idea to make a "game" where the analog LED would be turned off most of the time and would only light up under certain lighting circumstances.
 
