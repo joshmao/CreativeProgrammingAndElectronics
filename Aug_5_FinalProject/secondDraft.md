@@ -1,5 +1,4 @@
-For my interactive piano project I will be using a microphone connected to my laptop to catch the audio coming from my piano; then, I will use processing (band pass filters)
-into it's respective pitch + audio components. These values will then be sent through serial over to my arduino which will be powering a RGB LED 300 Pixels (WS2812B) light strip
+For my interactive piano project I will be using a microphone connected to my laptop to catch the audio coming from my piano; then, I will use processing (band pass filters) to split the incoming audio into it's respective pitch + audio components. These values will then be sent through serial over to my arduino which will be powering a RGB LED 300 Pixels (WS2812B) light strip
 which is powered by an ALITOVE 5V 15A AC to DC Power Supply Adapter. The arduino will read these values over serial and control the LED strip accordingly.
 
 As for the actual colors and patterns, I'm planning on having major and minor tones correspond to the warmth/coolness of the color while the volume of the tones correspond to the
