@@ -1,4 +1,4 @@
-![](Enticingphoto)
+![](Enticingphoto.jpg)
 
 **Colors of the Piano**
 
@@ -15,4 +15,4 @@ Functionality wise, this visualizer pairs LED brightness with the volume of the 
 I had a lot of problems with this project as audio detection algorithims and LED strips were completely new topics for me; I started by conducting a lot of research about the different audio parsing methods out there, including FFT, autocorrelation, and others. After I had a basic understanding of the topic, I was able to figure out what the R2D2 program was doing with help from Professor Shiloh and Chris Parcell from the Jacobs Institute. I utilized this basic understanding to begin to build on top of it - I recorded
 the frequency values of each key that was outputted from the R2D2 program and then built functions in order to analyze these functions to detect what note(s) were being played. Once this was done, I had to figure out how to send multiple values at the same time over serial to the arduino so that it could use those values to power the LED. Using the FastLED library was tricky at first but not very hard to understand and somehow all of these complex parts came together magically at the end. Even though there was a minor fire and my first adapter fried, I'm really proud of what I accomplished and looking forward to expanding on this project in the future!
 
-[Electronics](electronics.jpg), Arduino Schematic, [Arduino Code](final_arduino.ino), [Processing Code](PitchProject.pde).
+[Electronics](electronics.jpg), Arduino Schematic, [Arduino Code](final_arduino), [Processing Code](PitchProject.pde).
