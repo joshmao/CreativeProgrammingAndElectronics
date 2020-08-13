@@ -1,4 +1,4 @@
-![](Enticingphoto.jpg)
+![](Enticingphoto.png)
 
 **Colors of the Piano**
 
